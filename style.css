@@ -64,7 +64,7 @@
   width: 150px;
   top: 123px;
   left: 38px;
-  border-radius: 150px;
+  border-radius: 150px 100px 190px 100px;
 }
 
 #tree-top::after {
@@ -73,9 +73,9 @@
   display: block;
   height: 90px;
   width: 90px;
-  top: 12px;
-  right: 12px;
-  border-radius: 90px;
+  top: 47px;
+  left: 62px;
+  border-radius: 90px 120px 100px 70px;
   background-color: rgb(112, 153, 121);
 }
 
