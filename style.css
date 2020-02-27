@@ -56,3 +56,34 @@
   left: 263px;
   transform: rotateY(20deg) skew(62deg);
 }
+
+#tree-top {
+  position: absolute;
+  background-color: rgb(112, 153, 121);
+  height: 150px;
+  width: 150px;
+  top: 123px;
+  left: 38px;
+  border-radius: 150px;
+}
+
+#tree-top::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 90px;
+  width: 90px;
+  top: 12px;
+  right: 12px;
+  border-radius: 90px;
+  background-color: rgb(112, 153, 121);
+}
+
+#tree-trunk {
+  position: absolute;
+  background-color: rgb(51, 46, 26);
+  width: 13px;
+  height: 80px;
+  top: 272px;
+  left: 104px;
+}
